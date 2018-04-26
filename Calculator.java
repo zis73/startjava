@@ -1,4 +1,4 @@
-public class MyFirstApp{
+public class Calculator{
 	public static void main(String[] args) {
 		boolean a= 1+1==2;
 		boolean b= 30-5==25;
@@ -25,7 +25,7 @@ public class MyFirstApp{
 			System.out.println("50/25=2");
 		}
 		if (f) {
-			System.out.println("10%3=1");
+			System.out.println("10%3=0.3");
 		}
 		if (e) {
 			System.out.println("185+145=330");
@@ -39,13 +39,13 @@ public class MyFirstApp{
 			System.out.println("72/8=9");
 		}
 		if (l) {
-			System.out.println("20%9=2");
+			System.out.println("20%9=1.8");
 		}
 		if (m) {
-			System.out.println("5^2==25");
+			System.out.println("5^2=25");
 		}
 		if (o) {
-			System.out.println("7^2==49");
+			System.out.println("7^2=49");
 		}
 	}
 	static int square(int m){
