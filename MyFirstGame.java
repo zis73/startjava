@@ -3,7 +3,6 @@ import java.util.Scanner;
 
 public class MyFirstGame {
     public static void main(String[] argc) {
-<<<<<<< HEAD
         int randomNumber;
         int enteredNumber; 
         Random random = new Random();
@@ -21,7 +20,7 @@ public class MyFirstGame {
             System.out.print("The number you entered is less than what the computer");
         } 
         else if(enteredNumber == randomNumber){
-=======
+
         int randNum;
         int enterNum; Random random = new Random();
         Scanner scanner = new Scanner(System.in);
@@ -35,7 +34,6 @@ public class MyFirstGame {
         } else if (enterNum < randNum) {
             System.out.print("The number you entered is less than what the computer");
         } else if(enterNum == randNum){
->>>>>>> 9629596cc2bd5d7fc54e3e7e35d5af51a7a2f38a
             System.out.print("You guessed!");
         }
 
